@@ -25,7 +25,7 @@ Learning to use Browsersync has also been a bonus, I definitely think I will be 
 
 *Atomized styling.* Again- another seemingly simple but important turn of approach. Heretofore I have really always approached problems as a process of scaffolding a framework first and then placing the specific objects in the scaffold.
 
-From my very brief introduction to atomized styling I can see how from a process of development this could make a difference.
+From my very brief introduction to atomized styling I can see how from a process of development starting from the more specific, interesting elements and then building them up into a scaffold could make a difference. It seems much more fluid and adaptable.
 
 This chapter was also a reminder to choose HTML tags based on what they are not how the browser will style them- something that might be easy to forget when you mentally feel you have 'moved past basic HTML'. 
 
