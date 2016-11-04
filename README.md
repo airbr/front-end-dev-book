@@ -4,7 +4,7 @@
 ####Review/ Material by Morgan Murrah
 
 
-`11/3/2016`
+`11/3/2016- Preface`
 
 This repo is from working through the Front-End Web Development Guide by the Big Nerd Ranch. I received this as a freebie at an ATL Javascript Meetup and I am very grateful for it.
 
@@ -13,6 +13,28 @@ However, from a glance I observe that the BNR book uses slightly different metho
 
 I am particularly looking forward to working towards the end of the book and approaching the EmberJS framework which I have sparse experience with.
 
-I have completed Chapters 1 and 2 with relative ease - I have gained some benefit from becoming familiar with Atom and also... as embarassing as it is to admit... learning once and for all the proper way to add a favicon to a web page. Despite doing 12 weeks of intensive web dev 'stuff' I never learned that little one. This is at least one error I can say I have banished.
+`1. Chapter 1-2: Getting started`
+
+I have completed Chapters 1 and 2 with relative ease and quickly. I have gained some benefit from becoming familiar with Atom as I have previously only used Sublime Text. 
+
+As embarassing as it is to admit after 12 weeks of intensive full time development... I only now have learned once and for all the proper way to add a favicon to a web page. Feels good to banish that missing favicon error forever.
+
+Learning to use Browsersync has also been a bonus, I definitely think I will be incorporating this in future development.
+
+`2. Chapter 3: Styles`
+
+*Atomized styling.* Again- another seemingly simple but important turn of approach. Heretofore I have really always approached problems as a process of scaffolding a framework first and then placing the specific objects in the scaffold.
+
+From my very brief introduction to atomized styling I can see how from a process of development this could make a difference.
+
+This chapter was also a reminder to choose HTML tags based on what they are not how the browser will style them- something that might be easy to forget when you mentally feel you have 'moved past basic HTML'. 
+
+HSLA values for color which are not always supported are a thing I had forgot existed. 
+
+`3. Chapter 4: Flexbox`
+
+One of my favorites to come...
+
+
 
 
