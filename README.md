@@ -31,9 +31,9 @@ HSLA values for color which are not always supported are a thing I had forgot ex
 
 `Chapter 4: Flexbox`
 --
-Learning [Flexbox in WDI 7](https://github.com/ATL-WDI-Curriculum/css-flexbox) supplemented with games such as [Flexbox froggy](http://flexboxfroggy.com/) turned out to be very memorable. This was because I went home and shared the fact I learned about flexbox to some friends and was surprised as some very senior/experienced IT people I knew were interested as this Flexbox approach was just as new to them as it was for me. 
+Learning [Flexbox in WDI 7](https://github.com/ATL-WDI-Curriculum/css-flexbox) supplemented with games such as [Flexbox froggy](http://flexboxfroggy.com/) turned out to be very memorable. This was because I went home one day and  was surprised as I talked to some very senior/experienced IT friends who were just as new Flexbox as I was. As it turns out, some problems just before Flexbox really seem like the ['bad old days'](https://github.com/philipwalton/solved-by-flexbox).
 
-This chapter in the BNR book much like the WDI class is invaluable and accurately represents the state of the 'art' of CSS - as in, it puts a lot of hacky, undesirable practices such as floats and others largely behind us.
+This chapter in the BNR book much like the WDI class is invaluable and accurately represents the state of the 'art' in this area.
 
 **Highlights/gaps in my knowledge:**
 
@@ -47,6 +47,18 @@ This chapter in the BNR book much like the WDI class is invaluable and accuratel
 * coordinates such as top/right/bottom/left, pixels or relatives lengths (ok..)
 * **an ancestor element with an explicitly declared position property with a value of relative or absolute - if no ancestor has a declared position property, the absolutley defined positioned element with be placed relevative to the <html> element (Yikes!)**
 
-`Chapter 5: `
+`Chapter 5: Adaptive Layouts with Media Queries`
 --
 
+This chapter was a breeze - and relatively short - but quality. I particularly appreciate the way the authors pepper in a little bit of detail to explain things, such as why media queries almost always use 'all':
+
+`@media all and ... {
+	/*Styles go here*/
+}`
+
+When media queries were first being introduced it was planned that in the place of 'all' would eventually be device specific tags such as `phone` or `tv` ...  or just as likely `toaster` or `refridgerator` these days it seems. These device specific tags haven't really worked out as planned so 'all' is the catch-all.
+
+I always find little bits of context or explanation like this help me remember things.
+
+`Chapter 6:`
+--
