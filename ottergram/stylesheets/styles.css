@@ -1,7 +1,5 @@
-/* Browser reads selector syntax from right to left */
-
-/* Order of Font sources important - keep for reference nb bulletproof fontspring */
-
+/* browser reads selector syntax from right to left
+ order of font sources important keep for reference 'bulletproof fontsprint' */
 @font-face {
   font-family: 'lakeshore';
   src: url('fonts/LAKESHOR-webfont.eot/');
@@ -12,9 +10,24 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'airstreamregular';
+  src: url('fonts/Airstream-webfont.eot/');
+  src: url('fonts/Airstream-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Airstream-webfont.woff') format('woff'),
+       url('fonts/Airstream-webfont.ttf') format('truetype'),
+       url('donts/Airstream-webfont.svg#lakeshore') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+html, body {
+  height: 100%;
+}
 body {
+  display: flex;
   font-size: 10px;
-  background-color: #ffff00;
+  background-color: rgb(149, 194, 215);
+  flex-direction: column;
 }
 a {
   /* Declaration- negating default property */
@@ -28,18 +41,32 @@ a {
   font-family: lakeshore;
   font-size: 37px;
 }
-.thumbnail-item + .thumbnail-item {
-  margin-top: 10px;
+.main-content {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
 }
+/*.thumbnail-item + .thumbnail-item {
+  margin-top: 10px;
+}*/
 .thumbnail-item {
-  display: block;
+  display: inline-block;
+  min-width: 120px;
+  max-width: 120px;
   /*Fallback values*/
   border: 1px solid rgb(100%, 100%, 100%);
   border: 1px solid rgba(100%, 100%, 100%, 0.8);
 }
 .thumbnail-list {
-list-style: none;
-padding: 0;
+  flex: 0 1 auto;
+  order: 2;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+
+  white-space: nowrap;
+  overflow-x: auto;
 }
 .thumbnail-image {
   display: block;
@@ -55,4 +82,27 @@ padding: 0;
   color: rgb(202, 238, 255);
 
   font-size: 18px;
+}
+.detail-image-container {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detail-image-frame {
+  position: relative;
+  text-align: center;
+}
+.detail-image {
+width: 90%;
+}
+.detail-image-title {
+  position: absolute;
+  bottom: -16px;
+  left: 4px;
+
+  font-family: airstreamregular;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.9) 1px 2px 9px;
+  font-size: 40px;
 }
