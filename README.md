@@ -60,5 +60,7 @@ When media queries were first being introduced it was planned that in the place 
 
 I always find little bits of context or explanation like this help me remember things.
 
-`Chapter 6:`
+`Chapter 6: Handling Events in Javascript`
 --
+
+"Bottom up approach". Another reminder to start small and work up.
