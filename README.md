@@ -63,4 +63,6 @@ I always find little bits of context or explanation like this help me remember t
 `Chapter 6: Handling Events in Javascript`
 --
 
-"Bottom up approach". Another reminder to start small and work up.
+"Bottom up approach". Another reminder to start small and work up. A reminder that Nodelist's existed and generally should always be transmuted into a regular JS Array. 
+
+Generally a good practice/refresher chapter.
