@@ -66,3 +66,12 @@ I always find little bits of context or explanation like this help me remember t
 "Bottom up approach". Another reminder to start small and work up. A reminder that Nodelist's existed and generally should always be transmuted into a regular JS Array. 
 
 Generally a good practice/refresher chapter.
+
+`Chapter 7: Visual Effects with CSS`
+--
+After a short break from finishing the book due to work and commitments, what can I say, this chapter blew my socks of (with [cubic-bezier transitions](http://cubic-bezier.com/#.17,.67,.83,.67) you might even say).
+
+One 'aha' moment was being exposed to the keycode event objects that are easily loggable. This made a bunch of code I had seen before including early hard-coded games involving playing keyboards to music immediately make more sense.
+
+This chapter has got me back in to finish it for sure.
+

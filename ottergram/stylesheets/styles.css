@@ -56,6 +56,11 @@ a {
   /*Fallback values*/
   border: 1px solid rgb(100%, 100%, 100%);
   border: 1px solid rgba(100%, 100%, 100%, 0.8);
+
+  transition: transform 133ms ease-in-out;
+}
+.thumbnail-item:hover {
+  transform: scale(1.2);
 }
 .thumbnail-list {
   flex: 0 1 auto;
@@ -63,7 +68,7 @@ a {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  padding: 0;
+  padding: 20px 0;
 
   white-space: nowrap;
   overflow-x: auto;
@@ -92,6 +97,12 @@ a {
 .detail-image-frame {
   position: relative;
   text-align: center;
+
+  transition: transform 333ms cubic-bezier(1,.06,.28,1);
+}
+.is-tiny {
+  transform: scale(0.001);
+  transition: 0ms;
 }
 .detail-image {
 width: 90%;
@@ -106,6 +117,16 @@ width: 90%;
   text-shadow: rgba(0, 0, 0, 0.9) 1px 2px 9px;
   font-size: 40px;
 }
+.hidden-detail .detail-image-container {
+  display: none;
+}
+.hidden-detail .thumbnail-list {
+  flex-direction: column;
+  align-items: center;
+}
+.hidden-detail .thumbnail-item {
+  max-width: 80%;
+}
 /* Use type all always for media queries - few exceptions including print
 for print settings nb orientation:portrait / landscape diff vs. min-width: 768px*/
 
@@ -119,6 +140,8 @@ for print settings nb orientation:portrait / landscape diff vs. min-width: 768px
     flex-direction: column;
     order: 0;
     margin-left: 20px;
+
+    padding: 0 35px;
   }
 
   .thumbnail-item {
