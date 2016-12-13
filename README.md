@@ -1,7 +1,12 @@
 ### Front-End Web Development 
 --
-###The Big Nerd Ranch Guide  
+
 ####Review/ Material by Morgan Murrah
+Feat:
+
+* The Big Nerd Ranch Guide
+* Javscript30 by Wes Bos
+  
 
 
 `11/3/2016- Preface`
