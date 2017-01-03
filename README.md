@@ -88,16 +88,16 @@ After a short break from finishing the book due to work and commitments, what ca
 
 One 'aha' moment was being exposed to the keycode event objects that are easily loggable. This made a bunch of code I had seen before including early hard-coded games involving playing keyboards to music immediately make more sense.
 
-This chapter has got me back in to finish it for sure.
-
 `Chapters 8, 9, 10`
 --
 TBC. Chapter 8 on Modules is one of the longer and more difficult and most valuable to revise. I am happy to say that the chapters on Bootstrap and Jquery/Form Handling that followed were relatively a breeze. 
 
 
-# Javascript30
---
+#---
 
+
+``Javascript30``
+--
 1. WesBos starts outs with a fun challenge focused on using keyevents to interact with DOM elements to play music. Keywords:
  * ES6 Template Strings
  * classList.add(`css class goes here`)
@@ -105,9 +105,10 @@ TBC. Chapter 8 on Modules is one of the longer and more difficult and most valua
  * `data-*` data attribute practices
 
 
-# Koans
---
+#---
 
+``Koans``
+--
 `0-15`
 
 * Every object has a unique object id's, small integers have fixed object id's... and these folow the fibonnaci sequence for some reason. 
