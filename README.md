@@ -1,7 +1,7 @@
 ### Front-End Web Development && More 
 --
 
-##### Collection material's worked through by Morgan Murrah and commentary
+##### Collection of web development material worked through by Morgan Murrah and commentary
 
 Includes:
 
@@ -15,7 +15,7 @@ Includes:
 
 This repo started from working through the Front-End Web Development Guide by the Big Nerd Ranch. As I went along I figured I might as well add work/solutions from other great resources in to one repository to keep things organized. 
 
-I intend to add some commentary as I go along which maybe adds some kind of value, even just for my own learning. 
+I intend to add some commentary as I go along which maybe adds some kind of value even if just for my own learning. 
 
 A lot of the material in the BNR book for example touches similar areas and accomplishes similar things covered in the [Atlanta WDI Curriculum](https://github.com/ATL-WDI-Curriculum).
 However, from a glance I observe that the BNR book uses slightly different methods and approaches for similar objectives. I believe I will get a lot out of it/it will re-enforce what I know.
