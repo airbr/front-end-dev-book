@@ -93,9 +93,6 @@ One 'aha' moment was being exposed to the keycode event objects that are easily 
 TBC. Chapter 8 on Modules is one of the longer and more difficult and most valuable to revise. I am happy to say that the chapters on Bootstrap and Jquery/Form Handling that followed were relatively a breeze. 
 
 
-#---
-
-
 ``Javascript30``
 --
 1. WesBos starts outs with a fun challenge focused on using keyevents to interact with DOM elements to play music. Keywords:
@@ -104,8 +101,6 @@ TBC. Chapter 8 on Modules is one of the longer and more difficult and most valua
  * Drawbacks of using set-timeouts with css transition effects
  * `data-*` data attribute practices
 
-
-#---
 
 ``Koans``
 --
