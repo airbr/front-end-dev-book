@@ -1,20 +1,30 @@
-### Front-End Web Development 
+### Front-End Web Development && More 
 --
 
-####Review/ Material by Morgan Murrah
-Feat:
+##### Collection material's worked through by Morgan Murrah and commentary
 
-* The Big Nerd Ranch Guide
-* Javscript30 by Wes Bos
+Includes:
+
+* [The Big Nerd Ranch Guide to Front End Web Development](https://www.bignerdranch.com/books/front-end-web-development/)
+* [Javscript30 by Wes Bos](https://javascript30.com/)
+* [Ruby Koans](http://rubykoans.com/)
   
 
 
-`11/3/2016- Preface`
+`1/1/2017- Preface`
 
-This repo is from working through the Front-End Web Development Guide by the Big Nerd Ranch. I intend to add some commentary as I go along. From the contents page a lot of the material touches similar areas and accomplishes similar things covered in the [Atlanta WDI Curriculum](https://github.com/ATL-WDI-Curriculum).
+This repo started from working through the Front-End Web Development Guide by the Big Nerd Ranch. As I went along I figured I might as well add work/solutions from other great resources in to one repository to keep things organized. 
+
+I intend to add some commentary as I go along which maybe adds some kind of value, even just for my own learning. 
+
+A lot of the material in the BNR book for example touches similar areas and accomplishes similar things covered in the [Atlanta WDI Curriculum](https://github.com/ATL-WDI-Curriculum).
 However, from a glance I observe that the BNR book uses slightly different methods and approaches for similar objectives. I believe I will get a lot out of it/it will re-enforce what I know.
 
-I am particularly looking forward to working towards the end of the book and approaching the EmberJS framework which I have sparse experience with.
+The Ruby Koans exercises approaches Ruby from the perspective of edge cases and unit-testing.
+
+Wes Bos does an excellent job of zoning in on applying new and modern JavaScript techniques such as ES6.
+
+#BNR
 
 `Chapter 1-2: Getting started`
 --
@@ -80,3 +90,25 @@ One 'aha' moment was being exposed to the keycode event objects that are easily 
 
 This chapter has got me back in to finish it for sure.
 
+`Chapters 8, 9, 10`
+--
+TBC. Chapter 8 on Modules is one of the longer and more difficult and most valuable to revise. I am happy to say that the chapters on Bootstrap and Jquery/Form Handling that followed were relatively a breeze. 
+
+
+# Javascript30
+--
+
+1. WesBos starts outs with a fun challenge focused on using keyevents to interact with DOM elements to play music. Keywords:
+ * ES6 Template Strings
+ * classList.add(`css class goes here`)
+ * Drawbacks of using set-timeouts with css transition effects
+ * `data-*` data attribute practices
+
+
+# Koans
+--
+
+`0-15`
+
+* Every object has a unique object id's, small integers have fixed object id's... and these folow the fibonnaci sequence for some reason. 
+* `assert_equal true, nil.nil?`is apparently the only method on nil that returns true
