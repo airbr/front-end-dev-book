@@ -1,9 +1,6 @@
-### Front-End Web Development && More 
---
+#### Web development material I have worked through with some commentary
 
-##### Collection of web development material worked through by Morgan Murrah and commentary
-
-Includes:
+Includes sections from:
 
 * [The Big Nerd Ranch Guide to Front End Web Development](https://www.bignerdranch.com/books/front-end-web-development/)
 * [Javscript30 by Wes Bos](https://javascript30.com/)
@@ -11,20 +8,31 @@ Includes:
   
 
 
+
+
+
+
+
+
+
+
+# Notes/Commentary -
+----
+
+
+
+
 `1/1/2017- Preface`
 
 This repo started from working through the Front-End Web Development Guide by the Big Nerd Ranch. As I went along I figured I might as well add work/solutions from other great resources in to one repository to keep things organized. 
 
-I intend to add some commentary as I go along which maybe adds some kind of value even if just for my own learning. 
-
-A lot of the material in the BNR book for example touches similar areas and accomplishes similar things covered in the [Atlanta WDI Curriculum](https://github.com/ATL-WDI-Curriculum).
-However, from a glance I observe that the BNR book uses slightly different methods and approaches for similar objectives. I believe I will get a lot out of it/it will re-enforce what I know.
+The later additions have been:
 
 The Ruby Koans exercises approaches Ruby from the perspective of edge cases and unit-testing.
 
-Wes Bos does an excellent job of zoning in on applying new and modern JavaScript techniques such as ES6.
+Wes Bos's Javascript30 course does an excellent job of zoning in on applying new and modern JavaScript techniques.
 
-#BNR
+##BNR
 
 `Chapter 1-2: Getting started`
 --
