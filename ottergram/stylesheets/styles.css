@@ -10,16 +10,16 @@
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
-  font-family: 'airstreamregular';
-  src: url('fonts/Airstream-webfont.eot/');
-  src: url('fonts/Airstream-webfont.eot?#iefix') format('embedded-opentype'),
-       url('fonts/Airstream-webfont.woff') format('woff'),
-       url('fonts/Airstream-webfont.ttf') format('truetype'),
-       url('donts/Airstream-webfont.svg#lakeshore') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+/*@font-face {*/
+  /*font-family: 'airstreamregular';*/
+  /*src: url('fonts/Airstream-webfont.eot/');*/
+  /*src: url('fonts/Airstream-webfont.eot?#iefix') format('embedded-opentype'),*/
+       /*url('fonts/Airstream-webfont.woff') format('woff'),*/
+       /*url('fonts/Airstream-webfont.ttf') format('truetype'),*/
+       /*url('donts/Airstream-webfont.svg#lakeshore') format('svg');*/
+  /*font-weight: normal;*/
+  /*font-style: normal;*/
+/*}*/
 html, body {
   height: 100%;
 }
@@ -113,7 +113,7 @@ width: 90%;
   bottom: -16px;
   left: 4px;
 
-  font-family: airstreamregular;
+  font-family: Helvetica;
   color: white;
   text-shadow: rgba(0, 0, 0, 0.9) 1px 2px 9px;
   font-size: 40px;

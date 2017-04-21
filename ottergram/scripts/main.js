@@ -36,7 +36,9 @@ function addThumbClickHandler(thumb) {
 }
 function getThumbnailsArray() {
   'use strict';
+  // gets nodelist of all anchors with data-image-role="trigger"
   var thumbnails = document.querySelectorAll(THUMBNAIL_LINK_SELECTOR);
+  // makes array from an empty array that is sliced/called with the values of thumbnails as this values
   var thumbnailArray = [].slice.call(thumbnails);
   return thumbnailArray;
 }
@@ -57,7 +59,7 @@ function addKeyPressHandler(){
   'use strict';
   document.body.addEventListener('keyup', function(event) {
     event.preventDefault();
-    console.log(event.keyCode);
+    // console.log(event.keyCode);
     if (event.keyCode === ESC_KEY) {
       hideDetails();
     }
